@@ -20,12 +20,14 @@
     * HTML/ CSS/ Javascript basics;
   * Mate academy:
     * Several month on their training app;
+
 ### Skills:
 * a little bit of html;
 * a pinch of css;
 * and a fraction of javascript;
 
 ### Code examples:
+![Codewars rank](https://www.codewars.com/users/DominoSl/badges/micro)
 #### [Directions Reduction task from codewars](https://www.codewars.com/kata/596f610441372ee0de00006e)
 ````
 function dirReduc(arr){
