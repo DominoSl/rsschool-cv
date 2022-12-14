@@ -1,12 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M. Artemenko - CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./ico.ico" type="image/x-icon">
   </head>
-  <body>
+  <body class="body">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              Contacts
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              Summary
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              Code
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              Projects
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              Education
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="" class="nav__link">
+              English
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="profile" class="main__section profile">
+        <img src="./photo.jpg" alt="My photo" class="hero__photo">
+        <div class="hero__content">
+          <h1 class="hero__name">
+            Mykhailo Artemenko
+          </h1>
+          <div class="hero__position">
+            Junior Front-End Developer
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          Contacts
+        </h2>
+        <ul class="contacts">
+          <li class="contacts__item">
+            Kyiv, Ukraine
+          </li>
+          <li class="contacts__item">
+            Email: <a href="mailto:artemenko.mik@gmail.com">artemenko.mik@gmail.com</a>
+          </li>
+          <li class="contacts__item">
+            Github: <a href="https://github.com/DominoSl">DominoSl</a>
+          </li>
+          <li class="contacts__item">
+            Telegram: <a href="https://t.me/Domino_sl">@domino_sl</a>
+          </li>
+          <li class="contacts__item">
+            Discord: <a href="https://discordapp.com/users/1015271351373791273/">DominoSl#6063</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          Summary
+        </h2>
+
+        <p>
+          I am your typical guy who wants to be a switcher. I won't say that I have made a wrong turn with my current profession. It's just that I find myself lacking problem-solving delight.
+        </p>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          Skills
+        </h2>
+
+        <ul class="skills">
+          <li class="skills__item">
+            a little bit of html;
+          </li>
+          <li class="skills__item">
+            a pinch of css;
+          </li>
+          <li class="skills__item">
+            and a fraction of javascript;
+          </li>
+        </ul>
+      </section>
+      
+      <section class="main__section section">
+        <h2 class="section__title">
+          Code
+        </h2>
+        <h3>
+          <a href="https://www.codewars.com/kata/550f22f4d758534c1100025a">
+            Directions Reduction task from codewars
+          </a>
+        </h3>
+        <code>
+          <pre>
+function dirReduc(arr){
+  const directions = {
+    "NORTH": "SOUTH",
+    "SOUTH": "NORTH", 
+    "EAST": "WEST",
+    "WEST": "EAST",
+  }
+    
+  return arr.reduce((result, direction) => {
+    if (result.length === 0) {
+      return [direction];
+    }    
+
+    const lastDirection = result[result.length - 1];
+    
+    if (lastDirection === directions[direction]) {
+      result.length--;
+      
+      return result;
+    } else {
+      return [...result, direction];
+    }
+  }, []);
+}
+          </pre>
+        </code>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          Courses
+        </h2>
+
+        <ul class="courses">
+          <li class="courses__item">
+            SoftServe - <span class="courses__item-accent">HTML, CSS, JS basics</span>
+          </li>
+
+          <li class="courses__item">
+            Youtube - <span class="courses__item-accent">Various tutorials</span>
+          </li>
+
+          <li class="courses__item">
+            Mate academy - <span class="courses__item-accent">Several month of training</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          Projects
+        </h2>
+
+        <ul class="projects">
+          <li class="projects__item">
+            <a href="https://dominosl.github.io/canculator/">Calculator</a>
+          </li>
+
+          <li class="projects__item">
+            <a href="https://dominosl.github.io/homework1/">Dummy page</a>
+          </li>
+
+          <li class="projects__item">
+            <a href="https://dominosl.github.io/homework2/">Dummy page 2</a>
+          </li>
+
+          <li class="projects__item">
+            <a href="https://dominosl.github.io/tipcalcjq/">Tips calculator</a>
+          </li>
+
+          <li class="projects__item">
+            <a href="https://dominosl.github.io/layout_miami/">Landing</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          Education
+        </h2>
+
+        <p>National Aviation University - Aircraft and aircraft engines maintenance</p>
+      </section>
+
+      <section class="main__section section">
+        <h2 class="section__title">
+          English
+        </h2>
+
+        <p>C1 - tested by epam online test</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        © 2022 <a href="https://github.com/DominoSl" class="github">Mykhailo Artemenko</a>
+      </div>
+
+      <a href="https://rs.school/js/" class="rss"></a>
+    </footer>
   </body>
 </html>
