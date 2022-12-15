@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #282f3f;
+  color: #f5dad1;
+}
+
+.wrapper {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  transition: all 300ms;
+  border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+  color: #af1313;
+  border-color: #af1313;
+}
+
+.header {
+  background-color: #af1313;
+}
+
+.main {
+  font-size: 20px;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.nav {
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.nav__list {
+  text-align: right;
+  line-height: 80px;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav__item::after {
+  display: block;
+  content: '';
+  margin-top: -25px;
+  height: 2px;
+  width: 0;
+  background-color: #f5dad1;
+  transition: width 300ms;
+}
+
+.nav__item:hover::after {
+  width: 100%;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #f5dad1;
+  font-size: 20px;
+}
+
+.main__section {
+  margin-bottom: 40px;
+}
+
+.section {
+  min-width: 800px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  background-color: bisque;
+  border-radius: 20px;
+  color: #282f3f;
+  padding: 10px 40px;
+  transition: transform 350ms;
+}
+
+.section:hover {
+  transform: scale(1.03);
+}
+
+.section__title {
+  border-bottom: 2px solid#282f3f;
+  font-size: 30px;
+}
+
+.hero__photo-wrapper {
+  overflow: hidden;
+}
+
+.hero__photo {
+  border-radius: 50%;
+  transition: transform 300ms;
+}
+
+.hero__photo:hover {
+  transform: scale(1.03);
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 220px;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__name {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.hero__position {
+  font-size: 25px;
+}
