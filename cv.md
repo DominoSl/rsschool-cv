@@ -55,4 +55,4 @@ function dirReduc(arr){
   Still in pursuit for that commercial treasure.
 
 ### English language tested by EPAM:
-![English level](./english.png)
+![English level](./epam-english.png)
