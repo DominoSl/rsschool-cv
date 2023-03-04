@@ -13,7 +13,7 @@
 
 ### About:
   I am your typical guy who wants to enter the world of informational technologies, having almost nothing in common with it. I won't say that I have made a wrong turn with my current profession, it's just that I find myself lacking problem-solving delight.
-
+git push origin
 ### Education:
   * National Aviation University;
     * Maintenance and repair of aircraft and aircraft engines;
