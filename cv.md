@@ -28,10 +28,10 @@
 * and a fraction of javascript;
 
 ### Code examples:
-#### [Directions Reduction task from codewars](https://www.codewars.com/kata/596f610441372ee0de00006e)
+#### [Directions Reduction task from codewars](https://www.codewars.com/kata/550f22f4d758534c1100025a)
 ````
 function dirReduc(arr){
-  const directions = {
+  const directionPairs = {
     "NORTH": "SOUTH",
     "SOUTH": "NORTH", 
     "EAST": "WEST",
@@ -39,15 +39,15 @@ function dirReduc(arr){
   }
   const result = [];
 
-  for (const dir of arr) {
-    if (result[result.length - 1] === directions[dir]) {
+  for (const direction of arr) {
+    if (result[result.length - 1] === directionPairs[direction]) {
       result.pop(); 
     } else {
-      result.push(dir);
+      result.push(direction);
     }
   }
 
-  return result
+  return result;
 }
 ````
 
