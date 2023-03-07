@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Mykhailo Artemenko | CV</title>
+</head>
+  <body>
+    <h1>
+      Mykhailo Artemenko
+    </h1>
+    <img src="./photo.jpg" width="200" alt="My photo">
+    <h2>
+      Trainee Front-end engineer
+    </h2>
+    <section class="section">
+      <h2>
+        Contact information:
+      </h2>
+      <ul>
+        <li>
+          <b>Phone:</b> <a href="tel:380991958131">+38(099)1958131</a>;
+        </li>
+        <li>
+          <b>E-mail:</b> <a href="mailto:artemenko.mik@gmail.com">artemenko.mik@gmail.com</a>;
+        </li>
+        <li>
+          <b>Telegram:</b> <a href="https://t.me/domino_sl">@domino_sl</a>;
+        </li>
+        <li>
+          <b>LinkedIn:</b> <a href="www.linkedin.com/in/mykhailo-artemenko">Mykhailo Artemenko</a>;
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>
+        About:
+      </h2>
+      <p>
+         I am your typical guy who wants to enter the world of IT, having almost nothing in common with it. I won't say that I have made a wrong turn with my current profession, it's just that I find myself lacking problem-solving delight.
+      </p>
+    </section>
+    <section class="section">
+      <h2>
+        Education:
+      </h2>
+      <ul>
+        <li>
+          National Aviation University;
+          <br>
+          <i>Maintenance and repair of aircraft and aircraft engines;</i>
+        </li>
+        <li>
+          SoftServe:
+          <br>
+          <i>HTML/ CSS/ Javascript basics;</i>
+        </li>
+        <li>
+          Mate academy:
+          <br>
+          <i>Front-end engineer bootcamp;</i>
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>
+         Skills:
+      </h2>
+      <ul>
+        <li>
+          a little bit of html;
+        </li>
+        <li>
+          a pinch of css;
+        </li>
+        <li>
+          and a fraction of javascript;
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>
+        Code examples:
+      </h2>
+        <h3>
+          <a href="https://www.codewars.com/kata/550f22f4d758534c1100025a">Directions Reduction task from codewars</a>
+        </h3>
+      <pre>
+      function dirReduc(arr){
+        const directionPairs = {
+      "NORTH": "SOUTH",
+      "SOUTH": "NORTH",
+      "EAST": "WEST",
+      "WEST": "EAST",
+        }
+        const result = [];
+
+        for (const direction of arr) {
+      if (result[result.length - 1] === directionPairs[direction]) {
+        result.pop();
+      } else {
+        result.push(direction);
+      }
+        }
+
+        return result;
+      }
+      </pre>
+    </section>
+    <section class="section">
+      <h2>
+        Experience:
+      </h2>
+      <p>Still in pursuit for that commercial treasure.</p>
+    </section>
+    <section class="section">
+      <h2>
+        English language tested by EPAM:
+      </h2>
+      <img src="./epam-english.png" alt="english level: C1(advanced)">
+    </section>
+  </body>
+</html>
