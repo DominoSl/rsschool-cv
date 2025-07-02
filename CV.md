@@ -1,6 +1,8 @@
 # Mykhailo Artemenko
 ### Aspiring Frontend developer
 
+![My Photo](/images/photo.png)
+
 ---
 
 ### Contact information:
