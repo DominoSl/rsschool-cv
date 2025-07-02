@@ -1,6 +1,8 @@
 # Mykhailo Artemenko
 ### Aspiring Frontend developer
 
+---
+
 <img src="./images/photo.png" alt="My Photo" width="200">
 
 ---
