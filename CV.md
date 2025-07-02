@@ -1,7 +1,7 @@
 # Mykhailo Artemenko
 ### Aspiring Frontend developer
 
-![My Photo](/images/photo.png)
+<img src="./images/photo.png" alt="My Photo" width="200">
 
 ---
 
