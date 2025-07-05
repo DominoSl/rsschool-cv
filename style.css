@@ -1,3 +1,8 @@
+.page {
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+}
+
 .page__body {
   margin: 0;
   padding: 0;
@@ -18,6 +23,10 @@
 .header {
   background-color: var(--light-blue);
 
+}
+
+.header__container {
+  max-width: 1000px;
 }
 
 .nav__list {
@@ -49,7 +58,7 @@
 }
 
 .main {
-
+  height: 100%;
 }
 
 .main__title {
@@ -64,6 +73,36 @@
   max-width: 300px;
 }
 
+.code__code {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--gray);
+  border-radius: 5px;
+  color: #fff;
+}
+
 .footer {
 
 }
+
+.footer__container {
+  display: flex;
+  max-height: 100px;
+  align-items: center;
+}
+
+.footer__link {
+  display: block;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.footer__link--school {
+  margin-left: 100%;
+}
+
+.footer__image {
+  display: block;
+  max-height: 70px;
+} 
