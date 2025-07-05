@@ -1,1 +1,1 @@
-https://dominosl.github.io/rsschool-cv/cv
+[https://dominosl.github.io/rsschool-cv/](https://dominosl.github.io/rsschool-cv/)
