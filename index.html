@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Mykhailo Artemenko | CV</title>
   </head>
-  <body>
+
+  <body class="page__body">
     <header class="header">
       <div class="container header__container">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__list-item">
-              <a href="" class="nav__list-link"></a>
+              <a href="#contacts" class="nav__list-link">Contacts</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#about" class="nav__list-link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#code" class="nav__list-link">Code Example</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#languages" class="nav__list-link">Languages</a>
             </li>
           </ul>
         </nav>
@@ -27,10 +37,14 @@
         </section>
 
         <section class="main__photo">
-          <img src="./images/photo.png" alt="My Photo | Mykhailo Artemenko">
+          <h3 class="main__title main__title--hidden">My Photo</h3>
+          <img 
+            class="photo"
+            src="./images/photo.png"
+            alt="My Photo | Mykhailo Artemenko">
         </section>
 
-        <section class="main__contacts">
+        <section id="contacts" class="main__contacts">
           <h3 class="main__title">
             Contacts:
           </h3>
@@ -54,20 +68,23 @@
           </ul>
         </section>
 
-        <section class="main__about about">
+        <section id="about" class="main__about about">
           <h3 class="main__title">
             Professional Summary (According to chatGPT):
           </h3>
           <p class="about__text">
-            Analytical and versatile professional with a strong interest in technology, scientific methods, and self-improvement.<br>
+            Analytical and versatile professional with a strong interest in technology, scientific methods, and
+            self-improvement.<br>
             Experienced in working with tools like Git, and knowledgeable in both software and engineering contexts.<br>
-            Demonstrates strong problem-solving abilities, an eagerness to learn, and a commitment to precision and continuous development.<br>
-            Balances technical insight with creative thinking, and approaches challenges with curiosity, resilience, and integrity.
+            Demonstrates strong problem-solving abilities, an eagerness to learn, and a commitment to precision and
+            continuous development.<br>
+            Balances technical insight with creative thinking, and approaches challenges with curiosity, resilience, and
+            integrity.
           </p>
 
         </section>
 
-        <section class="main__skills skills">
+        <section id="skills" class="main__skills skills">
           <h3 class="main__title">
             Skills and Proficiency:
           </h3>
@@ -88,28 +105,39 @@
           </ul>
         </section>
 
-        <section class="main__code code">
+        <section id="code" class="main__code code">
           <h3 class="main__title">
             Code Example:
           </h3>
-          <code>
-            <pre>
-  function toNumberArray(stringarray) {
-    return stringarray.map(n => +n)
-  }
+
+          <p class="code__task">
+            <h4>
+              Convert an array of strings to array of numbers
+            </h4>
+            Oh no! Some really funny web dev gave you a sequence of
+            numbers from his API response as an sequence of strings! You need to cast the whole array to the correct type.
+            Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a
+            sequence of numbers.
+          </p>
+
+          <pre>
+              <code>
+    function toNumberArray(stringarray) {
+      return stringarray.map(n => +n)
+    }
+              </code>
             </pre>
-          </code>
         </section>
 
-        <section class="main__languages">
+        <section id="languages" class="main__languages">
           <h3 class="main__title">
             Languages:
           </h3>
           <ul class="languages">
             <li class="languages__item">
               English - Advanced (according to the online test at
-                <a href="www.EFset.org"><img src="./images/efset-logo.png" alt="Efset logo"></a>)
-                <img src="./images/english-level.jpg" alt="English test result: Advanced">
+              <a href="www.EFset.org"><img src="./images/efset-logo.png" alt="Efset logo"></a>)
+              <img src="./images/english-level.jpg" alt="English test result: Advanced">
             </li>
             <li class="languages__item">
               Russian - Native
@@ -127,7 +155,9 @@
 
     <footer class="footer">
       <div class="container footer__container">
-
+        <p>&#169 2025</p>
+        <a href="https://github.com/DominoSl">DominoSl</a>
+        <a href="https://rs.school/courses/javascript-ru"><img src="./images/logo-rsschool.png" alt="RsSchool logo"></a>
       </div>
     </footer>
   </body>
