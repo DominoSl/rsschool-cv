@@ -32,44 +32,49 @@
 
     <main class="main">
       <div class="container main__container">
-        <section class="main__titles">
-          <h1>Mykhailo Artemenko</h1>
-          <h2>Aspiring Frontend developer</h2>
-        </section>
+        <div class="introduction">
+          <section class="introduction__titles">
+            <h1 class="introduction__title">Mykhailo <span>
+              Artemenko
+            </span>
+          </h1>
+            <h2 class="introduction__title">Aspiring Frontend developer</h2>
+          </section>
 
-        <section class="main__photo">
-          <h3 class="main__title main__title--hidden">My Photo</h3>
-          <img 
-            class="photo"
-            src="./images/photo.png"
-            alt="My Photo | Mykhailo Artemenko">
-        </section>
+          <section class="introduction__photo-wrap">
+            <h3 class="main__title main__title--hidden">My Photo</h3>
+            <img
+              class="introduction__photo"
+              src="./images/photo.png"
+              alt="My Photo | Mykhailo Artemenko">
+            </section>
+    
+            <section id="contacts" class="main__contacts main__section introduction__contacts">
+              <h3 class="main__title">
+                Contacts:
+              </h3>
+              <ul class="contacts">
+                <li class="contacts__item">
+                  Telephone:
+                  <a class="contacts__link" href="tel:+389999999999">+389999999999</a>
+                </li>
+                <li class="contacts__item">
+                  E-mail:
+                  <a class="contacts__link" href="mailto:artemenko.mik@gmail.com">artemenko.mik@gmail.com</a>
+                </li>
+                <li class="contacts__item">
+                  Telegram:
+                  <a class="contacts__link" href="https://t.me/domino_sl">@Domino_Sl</a>
+                </li>
+                <li class="contacts__item">
+                  Linkedin:
+                  <a class="contacts__link" href="https://www.linkedin.com/in/mykhailo-artemenko/">Mykhailo Artemenko</a>
+                </li>
+              </ul>
+            </section>
+        </div>
 
-        <section id="contacts" class="main__contacts">
-          <h3 class="main__title">
-            Contacts:
-          </h3>
-          <ul class="contacts">
-            <li class="contacts__item">
-              Telephone:
-              <a class="contacts__link" href="tel:+389999999999">+389999999999</a>
-            </li>
-            <li class="contacts__item">
-              E-mail:
-              <a class="contacts__link" href="mailto:artemenko.mik@gmail.com">artemenko.mik@gmail.com</a>
-            </li>
-            <li class="contacts__item">
-              Telegram:
-              <a class="contacts__link" href="https://t.me/domino_sl">@Domino_Sl</a>
-            </li>
-            <li class="contacts__item">
-              Linkedin:
-              <a class="contacts__link" href="https://www.linkedin.com/in/mykhailo-artemenko/">Mykhailo Artemenko</a>
-            </li>
-          </ul>
-        </section>
-
-        <section id="about" class="main__about about">
+        <section id="about" class="main__about about main__section">
           <h3 class="main__title">
             Professional Summary (According to chatGPT):
           </h3>
@@ -85,7 +90,7 @@
 
         </section>
 
-        <section id="skills" class="main__skills skills">
+        <section id="skills" class="main__skills skills main__section">
           <h3 class="main__title">
             Skills and Proficiency:
           </h3>
@@ -106,7 +111,7 @@
           </ul>
         </section>
 
-        <section id="code" class="main__code code">
+        <section id="code" class="main__code code main__section">
           <h3 class="main__title">
             Code Example:
           </h3>
@@ -130,7 +135,7 @@
             </pre>
         </section>
 
-        <section id="languages" class="main__languages">
+        <section id="languages" class="main__languages main__section">
           <h3 class="main__title">
             Languages:
           </h3>
@@ -138,7 +143,6 @@
             <li class="languages__item">
               English - Advanced (according to the online test at
               <a href="www.EFset.org"><img src="./images/efset-logo.png" alt="Efset logo"></a>)
-              <img src="./images/english-level.jpg" alt="English test result: Advanced">
             </li>
             <li class="languages__item">
               Russian - Native
