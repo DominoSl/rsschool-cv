@@ -113,9 +113,35 @@
   display: block;
   width: 80%;
   margin: 0 auto;
-  background-color: var(--gray);
   border-radius: 5px;
   color: #fff;
+  background-color: var(--dark-gray);
+}
+
+.projects-item {
+  border: 1px solid transparent;
+  transition: border-color 300ms;
+}
+
+.projects-item:hover {
+  border-color: #4a525a;
+}
+
+.projects-item__link {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.projects-item__image {
+  max-width: 400px;
+  margin-right: 100px;
+}
+
+.projects-item__image {
+  object-fit: contain;
 }
 
 .footer {
@@ -133,6 +159,13 @@
   display: block;
   height: 100%;
   flex-grow: 1;
+  text-decoration: none;
+  color: black;
+  transition: color 330ms;
+}
+
+.footer__link:hover {
+  color: var(--gray);
 }
 
 .footer__link--school {
@@ -143,3 +176,7 @@
   display: block;
   max-height: 70px;
 } 
+
+.footer__link--git::before {
+  content: 'Github: ';
+}
