@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <title>Mykhailo Artemenko | CV</title>
+  </head>
+
+  <body class="page__body">
+    <header class="header">
+      <div class="container header__container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#contacts" class="nav__list-link">Contacts</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#about" class="nav__list-link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#languages" class="nav__list-link">Languages</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#education" class="nav__list-link">Education</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#code" class="nav__list-link">Code Example</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#projects" class="nav__list-link">Done projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container main__container">
+        <div class="introduction">
+          <section class="introduction__titles">
+            <h1 class="introduction__title">Mykhailo <span>Artemenko</span></h1>
+            <h2 class="introduction__title">Aspiring Frontend developer</h2>
+          </section>
+
+          <section class="introduction__photo-wrap">
+            <h2 class="main__title main__title--hidden">My Photo</h2>
+            <img class="introduction__photo" src="./images/photo.png" alt="My Photo | Mykhailo Artemenko">
+          </section>
+
+          <section id="contacts" class="main__contacts main__section introduction__contacts">
+            <h2 class="main__title">
+              Contacts:
+            </h2>
+            <ul class="contacts">
+              <li class="contacts__item">
+                Telephone:
+                <a class="contacts__link" href="tel:+389999999999">+389999999999</a>
+              </li>
+              <li class="contacts__item">
+                E-mail:
+                <a class="contacts__link" href="mailto:artemenko.mik@gmail.com">artemenko.mik@gmail.com</a>
+              </li>
+              <li class="contacts__item">
+                Telegram:
+                <a class="contacts__link" href="https://t.me/domino_sl">@Domino_Sl</a>
+              </li>
+              <li class="contacts__item">
+                Linkedin:
+                <a class="contacts__link" href="https://www.linkedin.com/in/mykhailo-artemenko/">Mykhailo Artemenko</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <section id="about" class="main__about about main__section">
+          <h2 class="main__title">
+            Professional Summary (According to chatGPT):
+          </h2>
+          <p class="about__text">
+            Analytical and versatile professional with a strong interest in technology, scientific methods, and
+            self-improvement.<br>
+            Experienced in working with tools like Git, and knowledgeable in both software and engineering contexts.<br>
+            Demonstrates strong problem-solving abilities, an eagerness to learn, and a commitment to precision and
+            continuous development.<br>
+            Balances technical insight with creative thinking, and approaches challenges with curiosity, resilience, and
+            integrity.
+          </p>
+        </section>
+
+        <section id="skills" class="main__skills skills main__section">
+          <h2 class="main__title">
+            Skills and Proficiency:
+          </h2>
+
+          <ul class="skills__list">
+            <li class="skills__list-item">
+              HTML5, CSS3
+            </li>
+            <li class="skills__list-item">
+              JavaScript Basics
+            </li>
+            <li class="skills__list-item">
+              Git, GitHub
+            </li>
+            <li class="skills__list-item">
+              VS Code
+            </li>
+          </ul>
+        </section>
+
+        <section id="languages" class="main__languages main__section">
+          <h2 class="main__title">
+            Languages:
+          </h2>
+          <ul class="languages">
+            <li class="languages__item">
+              English - Advanced (according to the online test at
+              <a href="www.EFset.org"><img src="./images/efset-logo.png" alt="Efset logo"></a>)
+            </li>
+            <li class="languages__item">
+              Russian - Native
+            </li>
+            <li class="languages__item">
+              Ukrainian - Native
+            </li>
+            <li class="languages__item">
+              Czech - Basic
+            </li>
+          </ul>
+        </section>
+
+        <section id="education" class="main__languages main__section">
+          <h2 class="main__title">
+            Education:
+          </h2>
+          <ul class="languages">
+            <li class="languages__item">
+              National Aviation University | Bachelor | 2018
+            </li>
+            <li class="languages__item">
+              National Aviation University | Bachelor | 2022
+            </li>
+          </ul>
+        </section>
+
+        <section id="code" class="main__code code main__section">
+          <h2 class="main__title">
+            Code Example:
+          </h2>
+
+          <h3>
+            Convert an array of strings to array of numbers
+          </h3>
+
+          <p class="code__task">
+            Oh no! Some really funny web dev gave you a sequence of
+            numbers from his API response as an sequence of strings! You need to cast the whole array to the correct type.
+            Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a
+            sequence of numbers.
+          </p>
+
+          <pre>
+                <code  class="code__code">
+      function toNumberArray(stringarray) {
+        return stringarray.map(n =&gt; +n)
+      }
+                </code>
+              </pre>
+        </section>
+
+        <section id="projects" class="main__code code main__section">
+          <h2 class="main__title">
+            Done Projects:
+          </h2>
+          <div class="projects-item">
+            <a href="https://dominosl.github.io/rsschool-cv/" class="projects-item__link">
+              <div >
+                <img
+                  class="projects-item__image"
+                  src="./images/cv.png"
+                  alt="CV project"
+                >
+              </div>
+              <div class="projects-item__text">
+                My CV project for a RSSchool course.
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__link">&#169; 2025</p>
+        <a class="footer__link footer__link--git" href="https://github.com/DominoSl">DominoSl</a>
+        <a class="footer__link" href="https://rs.school/courses/javascript-ru">
+          <img class="footer__image" src="./images/logo-rsschool.png" alt="RsSchool logo">
+        </a>
+      </div>
+    </footer>
+  </body>
+
+</html>
